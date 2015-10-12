@@ -39,4 +39,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency(%q<appraisal>, ["~> 1.0"])
   s.add_development_dependency(%q<rake>)
   s.add_development_dependency(%q<activemodel>, [">= 3.2.13"])
+  s.add_development_dependency(%q<test-unit>)
 end
