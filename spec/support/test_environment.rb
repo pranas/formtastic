@@ -6,6 +6,7 @@ RSpec.configure do |config|
   config.include RspecTagMatchers
   config.include CustomMacros
   config.mock_with :rspec
+  config.deprecation_stream = '/dev/null'
 end
 
 require "action_controller/railtie"
